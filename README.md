@@ -1,6 +1,6 @@
 # LoFTI: Localization and Factuality Transfer to Indian Locales
 
-This repo contains the dataset and codes for [LoFTI: Localization and Factuality Transfer to Indian Locales](https://arxiv.org/pdf/2407.11833).
+This repository contains the dataset and code for [LoFTI: Localization and Factuality Transfer to Indian Locales](https://arxiv.org/pdf/2407.11833).
 
 ## Overview
 LoFTI is an evaluation benchmark spanning multiple geographical locales that can be used to test the localization and factual transfer abilities of LLMs.
@@ -9,7 +9,7 @@ It can be used as a benchmark to evaluate the capabilities of LLMs in the Indian
 - Generating a localized response given a common question that can be asked across locations
 - Factuality transfer from one locale to another.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/csalt-research/LoFTI/main/LoFTI_Illustration.png" width="500" alt>
+  <img src="https://raw.githubusercontent.com/csalt-research/LoFTI/main/images/LoFTI_Illustration.png" width="500" alt>
   <p align="center">
   <em> Illustration of LLM’s localized factual text transfer capabilities.</em>
   </p>
@@ -42,7 +42,7 @@ print(dataset['test'][0])
 
 ## Dataset Distribution
 <p align="center">
-  <img src="https://raw.githubusercontent.com/csalt-research/LoFTI/main/map.png">
+  <img src="https://raw.githubusercontent.com/csalt-research/LoFTI/main/images/map.png">
   <p align="center">
     <em>The global distribution of the reference entities and the spread of target entities in India.</em>
   </p>
@@ -57,7 +57,7 @@ print(dataset['test'][0])
 - Common questions: [TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF(Q4_K_M)](https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/blob/main/mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf)
 
 ### Dataset Creation Pipeline
-![Dataset creation pipeline](https://raw.githubusercontent.com/csalt-research/LoFTI/main/pipeline.png)
+![Dataset creation pipeline](https://raw.githubusercontent.com/csalt-research/LoFTI/main/images/pipeline.png)
 
 ### Annotations
 To ensure the correctness of the LOFTI dataset, all the generations were carefully checked by human annotators. These annotators represent diverse demographics and have knowledge about samples from different geographic and hyperlocal regions.
